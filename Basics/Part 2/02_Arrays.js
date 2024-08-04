@@ -12,14 +12,14 @@ we need to keep in mind that it will add the array together in the same index,
 rather than keeping those elements separate
 */
 
-// Concat returns a new array and adds elemetns of both arrays separately
-// allHeroes = marvelHeroes.concat(dcHeroes) 
-// console.log(allHeroes); // ['Iron Man', 'Thor', 'Hulk', 'Spiderman',[ 'Batman', 'Superman', 'Flash' ]]
-// console.log(allHeroes[4])
+// Concat returns a new array and adds elements of both arrays separately
+const allHeroes = marvelHeroes.concat(dcHeroes);
+console.log(allHeroes); // ['Iron Man', 'Thor', 'Hulk', 'Spiderman',[ 'Batman', 'Superman', 'Flash' ]]
+console.log(allHeroes[4])
  
 // Spread function in Array (...)
-const allHeroes = [...marvelHeroes, ...dcHeroes];
-console.log(allHeroes);
+// const allHeroes = [...marvelHeroes, ...dcHeroes];
+// console.log(allHeroes);
 
 /*
 The flat() method of Array instances creates a new array
